@@ -114,10 +114,21 @@ int main(){
     // }
 
     //2D array
-    int arr[3][5]={10,20,30,40,50,60,70,80,90,100,110,120,130,140,150};
-    for (int i=0;i<3;i++){
-        for(int j=0;j<5;j++){
-            cout<<arr[i][j]<<endl;
-        }
-    }
+    // int arr[3][5]={10,20,30,40,50,60,70,80,90,100,110,120,130,140,150};
+    // for (int i=0;i<3;i++){
+    //     for(int j=0;j<5;j++){
+    //         cout<<arr[i][j]<<endl;
+    //     }
+    // }
+
+    //string 
+
+    string s ="Abhishek";
+    cout<<s[3]<<endl;
+    int len=s.size();
+    cout<<len;
+    
+    // for (int i=0;s[i]=!"\n";i++){
+    //     cout<<s[i]<<endl;
+    // }
 }
